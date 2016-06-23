@@ -1,0 +1,10 @@
+c:\users\a120016\documents\visual studio 2015\Projects\oi2\oi2\bin\Debug\oi2.exe.config
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\bin\Debug\oi2.exe
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\bin\Debug\oi2.pdb
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\bin\Debug\OpenTK.dll
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\bin\Debug\OpenTK.xml
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\obj\Debug\oi2.csprojResolveAssemblyReference.cache
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\obj\Debug\oi2.Properties.Resources.resources
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\obj\Debug\oi2.csproj.GenerateResource.Cache
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\obj\Debug\oi2.exe
+C:\Users\a120016\Documents\Visual Studio 2015\Projects\oi2\oi2\obj\Debug\oi2.pdb

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using OpenTK;
 using OpenTK.Graphics.OpenGL;
 using System.Drawing;
-
+using System.Threading;
 
 namespace oi2
 {
@@ -28,21 +28,34 @@ namespace oi2
 
         }
 
+        static float theta = 0.0f;
+        static float x = 0.0f;
+        static float y = 0.0f;
+
         private static void Game_RenderFrame(object sender, FrameEventArgs e)
         {
             //throw new NotImplementedException();
             GL.ClearColor(Color.White);
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);  //para limpar
-            GL.Begin(BeginMode.Lines); // define a forma
-            GL.Color3(Color.Red); //define a cor
+
+            GL.Rotate(theta, 0.0f, 0.0f, 1.0f);
+
+            GL.Begin(BeginMode.Triangles); // define a forma
+            GL.Color3(Color.Pink); //define a cor
             GL.Vertex2(0.0f, 1.0f);
-            GL.Vertex2(0.0f, -4.0f);
-            //GL.Vertex2(0.0f, 2.0f);
+            GL.Vertex2(0.0f, -1.0f);
+            GL.Vertex2(1.0f, 0.0f);
             GL.End();
             GL.PopMatrix();
+            
 
             var game = (GameWindow)sender;
             game.SwapBuffers();
+
+            x += 1.0f;
+            y += 1.0f;
+            theta += 1.0f;
+            Thread.Sleep(1000);
 
 
         }
